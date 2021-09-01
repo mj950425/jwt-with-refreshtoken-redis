@@ -1,8 +1,8 @@
 spring:
   redis:
-    port: ${REDIS_PORT:6379}
-    host: ${REDIS_HOST:220.90.208.193}
-    password: ${REDIS_PASSWORD:tmax}
+    port: ${REDIS_PORT}
+    host: ${REDIS_HOST}
+    password: ${REDIS_PASSWORD}
   jackson:
     serialization:
       fail-on-empty-beans: true
